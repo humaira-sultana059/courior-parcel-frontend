@@ -23,11 +23,44 @@ Icons: React Icons
 Prerequisites
 Node.js 18+ and npm/pnpm/yarn
 Backend server running (or use deployed API)
-1. Clone the Repository
+
+# Courier & Parcel Management System - Frontend
+
+A modern logistics tracking web application built with Next.js 14 and Tailwind CSS.
+
+## 🚀 Live Demo
+- **Frontend:** [https://your-frontend.vercel.app](https://your-frontend.vercel.app)
+- **Backend API:** [https://your-backend.vercel.app](https://your-backend.vercel.app)
+
+## 📋 Features
+- Customer registration & authentication
+- Parcel booking with pickup/delivery addresses
+- Real-time parcel tracking with maps
+- Booking history and status updates
+- Admin dashboard with analytics
+- Responsive design for all devices
+- Role-based access (Customer, Agent, Admin)
+
+## 🛠️ Tech Stack
+- **Framework:** Next.js 14 (App Router)
+- **Styling:** Tailwind CSS
+- **State Management:** React Context/useState
+- **HTTP Client:** Axios/Fetch API
+- **Real-time:** Socket.IO client
+- **Maps:** Google Maps API
+- **Icons:** React Icons
+
+## 📦 Installation & Setup
+
+### Prerequisites
+- Node.js 18+ and npm/pnpm/yarn
+- Backend server running (or use deployed API)
+```bash
+ 1. Clone the Repository
 git clone https://github.com/your-username/courier-frontend.git
 cd courier-frontend
-
-2. Install Dependencies
+```bash
+3. Install Dependencies
 bash
 npm install
 # or
@@ -50,7 +83,12 @@ pnpm dev
 yarn dev
 Open http://localhost:3000 in your browser.
 
+5. Build for Production
+
+npm run build
+npm start
 🏗️ Project Structure
+text
 frontend/
 ├── app/                    # Next.js App Router pages
 │   ├── (auth)/           # Authentication routes
