@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { apiCall } from "@/utils/api";
 import Navigation from "@/components/common/Navigation";
