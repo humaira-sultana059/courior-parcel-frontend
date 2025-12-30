@@ -47,7 +47,11 @@ export default function BookParcel() {
     }
   };
 
-  const user = JSON.parse(localStorage.getItem("user") || "{}");
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    setUser(JSON.parse(localStorage.getItem("user") || "{}"));
+  }, []);
 
   return (
     <div className="min-h-screen bg-transparent">
